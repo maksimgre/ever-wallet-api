@@ -971,8 +971,8 @@ impl TonService {
             sender.address().to_hex_string(),
             sender.workchain_id(),
             signed_message.clone(),
-            true,
             false,
+            true,
         )
         .await?;
 
